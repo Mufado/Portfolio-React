@@ -1,0 +1,60 @@
+.about-page {
+    display: flex;
+}
+
+.about-page .picture {
+    border-radius: 50%;
+    flex: 0 0 260px;
+    height: 260px;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+.about-page .profile-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 20px;
+}
+
+.about-page .profile-content h1 {
+    font-size: 36px;
+}
+
+.about-page .profile-content h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.about-page .social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.about-page .social .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.about-page .social .button .icon {
+    height: 25px;
+    transition: all 0.3s ease;
+}
+
+.about-page .social .button:hover {
+    background-color: black;
+}
+
+.about-page .social .button:hover .icon {
+    color: white;
+}

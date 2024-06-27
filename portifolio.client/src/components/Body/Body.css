@@ -1,0 +1,9 @@
+a:visited {
+    color: initial;
+}
+
+.body {
+    display: flex;
+    padding: 50px 30vh;
+    justify-content: center;
+}
